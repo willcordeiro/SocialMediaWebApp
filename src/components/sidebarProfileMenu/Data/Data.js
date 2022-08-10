@@ -15,6 +15,7 @@ export const SidebarItems = [
     NavigationID: "notifications",
     notificationsCount: "9+",
     activeItem: "",
+    notificationBar: true,
   },
   {
     icon: <MdOutlineMessage />,

@@ -13,36 +13,51 @@ function SidebarProfileMenu() {
               <img src="https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300" />
             </div>
             <div className="handle">
-              <h4>adasdasd</h4>
-              <p className="text-muted">@dada</p>
+              <h4>test</h4>
+              <p className="text-muted">@test</p>
             </div>
           </a>
           <div className="sidebar">
             {SidebarItems.map((item, index) => (
-              <div key={index} className={`menu-item ${item.activeItem}`}>
-                <a className="menu-item" id={item.NavigationID}>
+              <div key={index}>
+                <a
+                  className={`menu-item ${item.activeItem}`}
+                  id={item.NavigationID}
+                >
                   <span>
                     {item.icon}
                     <small>{item.notificationsCount}</small>
                     <h3> {item.text}</h3>
                   </span>
+                  {item.notificationBar ? (
+                    <div>
+                      {Notification.map(
+                        (Notificationitem, Notificationindex) => (
+                          <div
+                            className="notifications-popup"
+                            key={Notificationindex}
+                          >
+                            <div className="profile-photo">
+                              <img src={Notificationitem.userProfilePic} />
+                            </div>
+                            <div className="notification-body">
+                              <b>{Notificationitem.userNotificationName}</b>
+                              {Notificationitem.notificationInfo}
+                              <small className="text-muted">
+                                {Notificationitem.notificationTime}
+                              </small>
+                            </div>
+                          </div>
+                        )
+                      )}
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
                 </a>
               </div>
             ))}
-            {Notification.map((Notificationitem, Notificationindex) => (
-              <div className="notifications-popup" key={Notificationindex}>
-                <div className="profile-photo">
-                  <img src={Notificationitem.userProfilePic} />
-                </div>
-                <div className="notification-body">
-                  <b>{Notificationitem.userNotificationName}</b>
-                  {Notificationitem.notificationInfo}
-                  <small className="text-muted">
-                    {Notificationitem.notificationTime}
-                  </small>
-                </div>
-              </div>
-            ))}
+
             <Button forButton="create-post">Create post</Button>
           </div>{" "}
         </div>
