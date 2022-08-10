@@ -16,3 +16,41 @@ export const SidebarItems = [
   { icon: <MdFormatPaint />, text: "Theme" },
   { icon: <MdSettings />, text: "Settings" },
 ];
+
+export const Notification = [
+  {
+    userProfilePic:
+      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
+    userNotificationName: "keke bejamin",
+    notificationTime: "5 Days Ago",
+    notificationInfo: "accepted yout frind request",
+  },
+  {
+    userProfilePic:
+      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
+    userNotificationName: "keke bejamin",
+    notificationTime: "5 Days Ago",
+    notificationInfo: "accepted yout frind request",
+  },
+  {
+    userProfilePic:
+      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
+    userNotificationName: "keke bejamin",
+    notificationTime: "5 Days Ago",
+    notificationInfo: "accepted yout frind request",
+  },
+  {
+    userProfilePic:
+      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
+    userNotificationName: "keke bejamin",
+    notificationTime: "5 Days Ago",
+    notificationInfo: "accepted yout frind request",
+  },
+  {
+    userProfilePic:
+      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
+    userNotificationName: "keke bejamin",
+    notificationTime: "5 Days Ago",
+    notificationInfo: "accepted yout frind request",
+  },
+];
