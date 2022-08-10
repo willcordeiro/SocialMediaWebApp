@@ -7,14 +7,25 @@ import { MdOutlineAnalytics } from "react-icons/md";
 import { MdFormatPaint } from "react-icons/md";
 import { MdSettings } from "react-icons/md";
 export const SidebarItems = [
-  { icon: <MdHome />, text: "Home" },
-  { icon: <MdTravelExplore />, text: "Explore" },
-  { icon: <MdOutlineCircleNotifications />, text: "Notifications" },
-  { icon: <MdOutlineMessage />, text: "Messages" },
-  { icon: <MdBookmarks />, text: "Bookmarks" },
-  { icon: <MdOutlineAnalytics />, text: "Analytics" },
-  { icon: <MdFormatPaint />, text: "Theme" },
-  { icon: <MdSettings />, text: "Settings" },
+  { icon: <MdHome />, text: "Home", activeItem: "active" },
+  { icon: <MdTravelExplore />, text: "Explore", activeItem: "" },
+  {
+    icon: <MdOutlineCircleNotifications />,
+    text: "Notifications",
+    NavigationID: "notifications",
+    notificationsCount: "9+",
+    activeItem: "",
+  },
+  {
+    icon: <MdOutlineMessage />,
+    text: "Messages",
+    NavigationID: "messages-notifications",
+    activeItem: "",
+  },
+  { icon: <MdBookmarks />, text: "Bookmarks", activeItem: "" },
+  { icon: <MdOutlineAnalytics />, text: "Analytics", activeItem: "" },
+  { icon: <MdFormatPaint />, text: "Theme", activeItem: "" },
+  { icon: <MdSettings />, text: "Settings", activeItem: "" },
 ];
 
 export const Notification = [
