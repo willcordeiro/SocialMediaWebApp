@@ -25,3 +25,10 @@ main .conta .left .profile {
   column-gap: 1rem;
   width: 100%;
 }
+
+main .conta .right {
+  height: max-content;
+  position: sticky;
+  top: -18rem;
+  bottom: 0;
+}
