@@ -41,9 +41,24 @@ function Feed() {
               <span>
                 <img src={item.userPhoto} />
               </span>
-              <p>Liked by</p> <b></b> and <p>2,323</p>
+              <span>
+                <img src={item.userPhoto2} />
+              </span>
+              <span>
+                <img src={item.userPhoto3} />
+              </span>
+              <p>Liked by</p> <b>{item.userName}</b> and{" "}
+              <p>{item.numbersOfLikes}</p> others
             </div>
           ))}
+
+          <div className="caption">
+            <p>
+              <b></b>
+              <span className="harsh-tag"></span>
+            </p>
+          </div>
+          <div className="text-muted"></div>
         </div>
       </div>
     </>

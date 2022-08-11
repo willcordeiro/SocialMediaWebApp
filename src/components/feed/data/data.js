@@ -23,13 +23,13 @@ export const FeedIcons = [
 ];
 
 export const likedBy = [
-  { userPhoto: "https://artfiles.alphacoders.com/153/thumb-1920-153330.jpg" },
   {
-    userPhoto:
+    userPhoto: "https://artfiles.alphacoders.com/153/thumb-1920-153330.jpg",
+    userPhoto2:
       "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f7fa0429-be0d-4881-ad24-90cd0e1a3b87/dexq7ie-01baf73c-c785-40e1-b9fe-edd883df4cb6.png/v1/fill/w_843,h_948,q_70,strp/fan_art___zeri_from_league_of_legends_by_mamoriart_dexq7ie-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQzOSIsInBhdGgiOiJcL2ZcL2Y3ZmEwNDI5LWJlMGQtNDg4MS1hZDI0LTkwY2QwZTFhM2I4N1wvZGV4cTdpZS0wMWJhZjczYy1jNzg1LTQwZTEtYjlmZS1lZGQ4ODNkZjRjYjYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.bGzoQp8RbcDAnT6C6_6gy0zT0Zs0j17hTzTo8dUVdL4",
-  },
-  {
-    userPhoto:
+    userPhoto3:
       "https://w0.peakpx.com/wallpaper/904/195/HD-wallpaper-lol-game-fanart-league-of-legends-games-artist-artwork-digital-art.jpg",
+    userName: "Michael fernandes",
+    numbersOfLikes: "2,323",
   },
 ];
