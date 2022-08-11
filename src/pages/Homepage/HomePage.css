@@ -4,7 +4,8 @@ main {
 }
 main .conta {
   display: grid;
-  grid-template-columns: 25vh auto 25vw;
+  justify-content: center;
+  grid-template-columns: 15vw 45vw 25vw;
   column-gap: 2rem;
   position: relative;
   padding: 20px;
