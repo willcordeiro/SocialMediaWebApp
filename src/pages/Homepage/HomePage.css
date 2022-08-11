@@ -4,8 +4,23 @@ main {
 }
 main .conta {
   display: grid;
-  grid-template-columns: 18vh auto 20vw;
-  padding: 10px;
+  grid-template-columns: 25vh auto 25vw;
   column-gap: 2rem;
   position: relative;
+  padding: 20px;
+}
+
+main .conta .left {
+  height: max-content;
+  position: sticky;
+  top: 40px;
+}
+main .conta .left .profile {
+  padding: var(--card-padding);
+  background: var(--color-white);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  width: 100%;
 }

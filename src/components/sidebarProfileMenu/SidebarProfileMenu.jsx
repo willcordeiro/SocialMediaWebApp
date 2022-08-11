@@ -2,7 +2,7 @@ import React from "react";
 import "./SidebarProfileMenu/SidebarProfileMenu.css";
 import { SidebarItems } from "./Data/Data";
 import Button from "../button/Button";
-import { Notification } from "./Data/Data";
+
 function SidebarProfileMenu() {
   return (
     <>
@@ -23,19 +23,19 @@ function SidebarProfileMenu() {
               id={item.NavigationID}
               key={index}
             >
-              <i>
-                <small
-                  className={
-                    item.notificationsCount != "" ? " notification-count" : ""
-                  }
-                >
-                  {item.notificationsCount}
-                </small>
-                {item.icon}
-
-                <h3 className="siderbarItem">{item.text}</h3>
-              </i>
-
+              <span>
+                <i>{item.icon}</i>
+                <i>
+                  <small
+                    className={
+                      item.notificationsCount != "" ? " notification-count" : ""
+                    }
+                  >
+                    {item.notificationsCount}
+                  </small>
+                </i>
+              </span>
+              <h3 className="siderbarItem">{item.text}</h3>
               {/*   {item.notificationBar ? (
                 <div className="backgroundnotifications">
                   {Notification.map((Notificationitem, Notificationindex) => (
