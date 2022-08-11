@@ -1,0 +1,86 @@
+.middle .stories {
+  display: flex;
+  justify-content: space-between;
+  height: 17rem;
+  gap: 0.5rem;
+}
+
+.middle .stories .story {
+  padding: var(--card-padding);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 0.75rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.middle .stories .story::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5rem;
+  background: linear-gradient(transparent, rgb(0, 0, 0, 0.75));
+  position: absolute;
+  bottom: 0;
+}
+
+.middle .stories .story .name {
+  z-index: 2;
+}
+
+.middle .stories .story:nth-child(1) {
+  background: url(https://cdna.artstation.com/p/assets/images/images/019/251/130/large/steven-lu-sketch-xueshan.jpg?1562680503&dl=1)
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(2) {
+  background: url(https://jpimg.com.br/uploads/2017/04/3807997796-times-square.jpg)
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(3) {
+  background: url(https://a.cdn-hotels.com/gdcs/production102/d328/e79c53d0-c31d-11e8-825c-0242ac110006.jpg?impolicy=fcrop&w=800&h=533&q=medium)
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(4) {
+  background: url(https://www.visiteosusa.com.br/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-04/7010d1e88b80578f3d4e6fc09c2a2379.jpeg?itok=7s_epXAP)
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(5) {
+  background: url(https://a.cdn-hotels.com/gdcs/production138/d1142/08366677-a8d0-4979-84d5-b54f93ca00e5.jpg?impolicy=fcrop&w=800&h=533&q=medium)
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(6) {
+  background: url(https://photos.mandarinoriental.com/is/image/MandarinOriental/new-york-2017-columbus-circle-01?crop=1025,138,2389,3148&anchor=2219,1712)
+    no-repeat center center/cover;
+}
+
+.middle .story .profile-photo {
+  width: 2rem;
+  height: 2rem;
+  align-self: start;
+  border: 3px solid var(--color-primary);
+}
+
+.middle .create-post {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background: var(--color-white);
+  padding: 0.4rem var(--card-padding);
+  border-radius: var(--border-radius);
+}
+
+.middle .create-post input[type="text"] {
+  justify-self: start;
+  width: 100%;
+  padding-left: 1rem;
+  background: transparent;
+  color: var(--color-dark);
+  margin-right: 1rem;
+}
