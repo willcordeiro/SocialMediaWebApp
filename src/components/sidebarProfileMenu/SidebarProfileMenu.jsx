@@ -24,11 +24,20 @@ function SidebarProfileMenu() {
                   className={`menu-item ${item.activeItem}`}
                   id={item.NavigationID}
                 >
-                  <span>
+                  <i>
+                    <small
+                      className={
+                        item.notificationsCount != ""
+                          ? " notification-count"
+                          : ""
+                      }
+                    >
+                      {item.notificationsCount}
+                    </small>
                     {item.icon}
-                    <small>{item.notificationsCount}</small>
-                    <h3> {item.text}</h3>
-                  </span>
+
+                    <h3 className="siderbarItem">{item.text}</h3>
+                  </i>
                   {item.notificationBar ? (
                     <div>
                       {Notification.map(

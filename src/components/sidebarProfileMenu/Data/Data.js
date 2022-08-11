@@ -7,26 +7,57 @@ import { MdOutlineAnalytics } from "react-icons/md";
 import { MdFormatPaint } from "react-icons/md";
 import { MdSettings } from "react-icons/md";
 export const SidebarItems = [
-  { icon: <MdHome />, text: "Home", activeItem: "active" },
-  { icon: <MdTravelExplore />, text: "Explore", activeItem: "" },
+  {
+    icon: <MdHome />,
+    text: "Home",
+    activeItem: "active",
+    notificationsCount: "",
+  },
+  {
+    icon: <MdTravelExplore />,
+    text: "Explore",
+    activeItem: "",
+    notificationsCount: "",
+  },
   {
     icon: <MdOutlineCircleNotifications />,
     text: "Notifications",
     NavigationID: "notifications",
-    notificationsCount: "9+",
     activeItem: "",
     notificationBar: true,
+    notificationsCount: "9+",
   },
   {
     icon: <MdOutlineMessage />,
     text: "Messages",
     NavigationID: "messages-notifications",
     activeItem: "",
+    notificationsCount: "9+",
   },
-  { icon: <MdBookmarks />, text: "Bookmarks", activeItem: "" },
-  { icon: <MdOutlineAnalytics />, text: "Analytics", activeItem: "" },
-  { icon: <MdFormatPaint />, text: "Theme", activeItem: "" },
-  { icon: <MdSettings />, text: "Settings", activeItem: "" },
+  {
+    icon: <MdBookmarks />,
+    text: "Bookmarks",
+    activeItem: "",
+    notificationsCount: "",
+  },
+  {
+    icon: <MdOutlineAnalytics />,
+    text: "Analytics",
+    activeItem: "",
+    notificationsCount: "",
+  },
+  {
+    icon: <MdFormatPaint />,
+    text: "Theme",
+    activeItem: "",
+    notificationsCount: "",
+  },
+  {
+    icon: <MdSettings />,
+    text: "Settings",
+    activeItem: "",
+    notificationsCount: "",
+  },
 ];
 
 export const Notification = [
