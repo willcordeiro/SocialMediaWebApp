@@ -5,7 +5,7 @@ main {
 main .conta {
   display: grid;
   justify-content: center;
-  grid-template-columns: 15vw 45vw 25vw;
+  grid-template-columns: 20vw 35vw 20vw;
   column-gap: 2rem;
   position: relative;
   padding: 20px;
@@ -40,7 +40,7 @@ main .conta .right {
     width: 96%;
   }
   main .conta {
-    grid-template-columns: 5rem auto 30vw;
+    grid-template-columns: 0rem auto 30vw;
     gap: 1rem;
   }
 
@@ -54,6 +54,47 @@ main .conta .right {
   }
 
   .sidebar h3 {
+    display: none;
+  }
+
+  .left .btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .search-bar {
+    display: none;
+  }
+
+  main .conta {
+    grid-template-columns: 10px 100vw 0;
+    gap: 0;
+  }
+
+  main .conta .left {
+    bottom: 0;
+    right: 0;
+  }
+
+  .left .notifications-popup {
+    position: absolute;
+    left: -20rem;
+    width: 20rem;
+  }
+
+  .left .notifications-popup:before {
+    position: absolute;
+    top: 1.3rem;
+    left: calc(20rem - 0.6rem);
+    display: block;
+  }
+
+  main .conta .middle {
+    grid-column: 1/3;
+  }
+
+  main .conta .right {
     display: none;
   }
 }

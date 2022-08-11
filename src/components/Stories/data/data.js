@@ -24,9 +24,4 @@ export const Storie = [
       "https://californiacrossroads.com/wp-content/uploads/2021/07/snow-in-california-4.jpg",
     StorieName: "xbox",
   },
-  {
-    StorieImage:
-      "https://media.istockphoto.com/photos/frozen-river-covered-with-ice-picture-id1347104339?b=1&k=20&m=1347104339&s=170667a&w=0&h=zO_jbdTKkQxyLQFOWXPA-dEbLHZggzQqLFFujqfdLZE=",
-    StorieName: "playstation",
-  },
 ];

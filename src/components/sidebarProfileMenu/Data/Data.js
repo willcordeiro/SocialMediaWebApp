@@ -23,7 +23,6 @@ export const SidebarItems = [
     icon: <MdOutlineCircleNotifications />,
     text: "Notifications",
     NavigationID: "notifications",
-    activeItem: "",
     notificationBar: true,
     notificationsCount: "9+",
   },
@@ -31,31 +30,31 @@ export const SidebarItems = [
     icon: <MdOutlineMessage />,
     text: "Messages",
     NavigationID: "messages-notifications",
-    activeItem: "",
+
     notificationsCount: "9+",
   },
   {
     icon: <MdBookmarks />,
     text: "Bookmarks",
-    activeItem: "",
+
     notificationsCount: "",
   },
   {
     icon: <MdOutlineAnalytics />,
     text: "Analytics",
-    activeItem: "",
+
     notificationsCount: "",
   },
   {
     icon: <MdFormatPaint />,
     text: "Theme",
-    activeItem: "",
+
     notificationsCount: "",
   },
   {
     icon: <MdSettings />,
     text: "Settings",
-    activeItem: "",
+
     notificationsCount: "",
   },
 ];

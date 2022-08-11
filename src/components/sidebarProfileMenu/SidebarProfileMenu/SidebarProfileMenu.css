@@ -2,6 +2,7 @@
   margin-top: 1rem;
   background: var(--color-white);
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .left .sidebar .menu-item {
@@ -81,20 +82,4 @@ i {
   width: 100%;
   text-align: center;
   padding: 1rem 0;
-}
-
-.backgroundnotifications {
-  background: var(--color-white);
-}
-
-.left .notifications-popup {
-  position: absolute;
-  top: 0;
-  left: 110%;
-  width: 30rem;
-  background: var(--color-white);
-  border-radius: 5px;
-  padding: var(--card-padding);
-  box-shadow: 0 0 2rem hsl(var(--color-primary), 75%, 60% 25%);
-  z-index: 8;
 }

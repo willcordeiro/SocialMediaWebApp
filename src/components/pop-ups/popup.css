@@ -1,0 +1,29 @@
+.backgroundnotifications {
+  background: #f0eef6;
+  position: fixed;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  z-index: 1000;
+}
+
+.left .notifications-popup {
+  position: absolute;
+  top: 40%;
+  display: block;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.Xicon {
+  font-size: 25px;
+  cursor: pointer;
+  justify-content: right;
+}

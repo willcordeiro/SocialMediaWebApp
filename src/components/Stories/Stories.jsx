@@ -7,7 +7,7 @@ function Stories() {
       <div>
         <div className="stories">
           {Storie.map((item, index) => (
-            <div className="story">
+            <div className="story" key={index}>
               <div key={index}>
                 <div className="profile-photo">
                   <img src={item.StorieImage} />

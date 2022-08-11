@@ -39,8 +39,8 @@ function RightSection() {
 
         <div className="message">
           {messages.map((item, index) => (
-            <div>
-              <div className="profile-photo " key={index}>
+            <div key={index}>
+              <div className="profile-photo ">
                 <img src={item.userImage} className="rightprofile" />
               </div>
 

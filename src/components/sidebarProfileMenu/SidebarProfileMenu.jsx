@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SidebarProfileMenu/SidebarProfileMenu.css";
 import { SidebarItems } from "./Data/Data";
 import Button from "../button/Button";
@@ -19,16 +19,19 @@ function SidebarProfileMenu() {
         <div className="sidebar">
           {SidebarItems.map((item, index) => (
             <a
-              className={`menu-item ${item.activeItem}`}
+              className="menu-item"
               id={item.NavigationID}
               key={index}
+              onClick={item.notificationBar !== undefined ? "" : ""}
             >
               <span>
                 <i>{item.icon}</i>
                 <i>
                   <small
                     className={
-                      item.notificationsCount != "" ? " notification-count" : ""
+                      item.notificationsCount !== ""
+                        ? " notification-count"
+                        : ""
                     }
                   >
                     {item.notificationsCount}
@@ -36,31 +39,6 @@ function SidebarProfileMenu() {
                 </i>
               </span>
               <h3 className="siderbarItem">{item.text}</h3>
-              {/*   {item.notificationBar ? (
-                <div className="backgroundnotifications">
-                  {Notification.map((Notificationitem, Notificationindex) => (
-                    <div
-                      className="notifications-popup"
-                      key={Notificationindex}
-                    >
-                      <div>
-                        <div className="profile-photo">
-                          <img src={Notificationitem.userProfilePic} />
-                        </div>
-                        <div className="notification-body">
-                          <b>{Notificationitem.userNotificationName}</b>
-                          {Notificationitem.notificationInfo}
-                          <small className="text-muted">
-                            {Notificationitem.notificationTime}
-                          </small>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                ""
-              )} */}
             </a>
           ))}
         </div>
