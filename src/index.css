@@ -9,7 +9,7 @@
   --color-dark: hsl(252, 30%, 17%);
   --color-black: hsl(252, 30%, 10%);
 
-  --border-radius: 2rem;
+  --card-border-radius: 2rem;
   --card-border-radius: 1rem;
   --btn-padding: 0.6rem 2rem;
   --search-padding: 0.6rem 1rem;

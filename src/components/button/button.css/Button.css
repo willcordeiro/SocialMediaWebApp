@@ -2,7 +2,7 @@
   display: inline-block;
   padding: var(--btn-padding);
   font-weight: 500;
-  border-radius: var(--border-radius);
+  border-radius: 7px;
   cursor: pointer;
   transform: all 300ms ease;
   font-size: 0.9rem;

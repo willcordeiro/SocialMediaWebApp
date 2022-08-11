@@ -39,7 +39,7 @@ function SidebarProfileMenu() {
                     <h3 className="siderbarItem">{item.text}</h3>
                   </i>
                   {item.notificationBar ? (
-                    <div>
+                    <div className="backgroundnotifications">
                       {Notification.map(
                         (Notificationitem, Notificationindex) => (
                           <div
@@ -66,9 +66,8 @@ function SidebarProfileMenu() {
                 </a>
               </div>
             ))}
-
-            <Button forButton="create-post">Create post</Button>
-          </div>{" "}
+          </div>
+          <Button forButton="create-post">Create post</Button>
         </div>
       </div>
     </>
