@@ -7,7 +7,7 @@ function Feed() {
     <>
       <div className="feeds">
         {FeedRoll.map((item, index) => (
-          <div className="feed">
+          <div className="feed" key={index}>
             <div className="head">
               <div className="user">
                 <div className="profile-photo">
@@ -24,7 +24,7 @@ function Feed() {
             </div>
 
             <div className="photo">
-              <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc315a26ed0d1220c/6025d6ae3e70bb4c12c71fd6/2021_2_15_NasusKim.jpg" />
+              <img src={item.FeedImage} />
             </div>
 
             <div className="action-buttons">

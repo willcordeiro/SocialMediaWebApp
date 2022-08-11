@@ -9,7 +9,7 @@ function SidebarProfileMenu() {
       <div className="left">
         <a className="profile">
           <div className="profile-photo">
-            <img src="https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300" />
+            <img src="https://www.unrankedsmurfs.com/storage/blogposts/best-fan-art/rivenexile.jpg" />
           </div>
           <div className="handle">
             <h4>test</h4>
