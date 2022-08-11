@@ -38,7 +38,7 @@ img {
 }
 
 .navbar .search-bar {
-  background: var(--color-white);
+  background: rgb(238, 237, 237);
   border-radius: var(--border-radius);
   padding: var(--search-padding);
 }

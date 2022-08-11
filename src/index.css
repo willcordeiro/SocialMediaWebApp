@@ -16,9 +16,14 @@
   --card-padding: 1rem;
 }
 
-* {
+*,
+::before,
+*::after {
   margin: 0;
   padding: 0;
+  outline: none;
+  list-style: none;
+  border: none;
   box-sizing: border-box;
 }
 

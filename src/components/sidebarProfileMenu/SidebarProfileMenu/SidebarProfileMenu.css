@@ -37,7 +37,7 @@ main .conta .left .profile {
 
 .left .sidebar i {
   font-size: 1.4rem;
-  color: var(--color-gray);
+  color: rgb(51, 50, 50);
   margin-left: 2rem;
   position: relative;
 }
