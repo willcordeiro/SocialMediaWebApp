@@ -1,15 +1,13 @@
 import React from "react";
-import { FeedIcons } from "./data/data";
-import { userFeedProfile } from "./data/data";
-import { likedBy } from "./data/data";
-import { comments } from "./data/data";
+import { FeedRoll } from "./data/data";
+
 import "./feed.css";
 function Feed() {
   return (
     <>
       <div className="feeds">
-        <div className="feed">
-          {userFeedProfile.map((item, index) => (
+        {FeedRoll.map((item, index) => (
+          <div className="feed">
             <div className="head">
               <div className="user">
                 <div className="profile-photo">
@@ -17,18 +15,20 @@ function Feed() {
                 </div>
                 <div className="ingo">
                   <h3>{item.userName}</h3>
-                  <small></small>
+                  <small>
+                    {item.PostLocations}, {item.PostMoment}
+                  </small>
                 </div>
                 <span className="edit">{item.userEllIcon}</span>
               </div>
             </div>
-          ))}
-          <div className="photo">
-            <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc315a26ed0d1220c/6025d6ae3e70bb4c12c71fd6/2021_2_15_NasusKim.jpg" />
-          </div>
-          {FeedIcons.map((item, index) => (
-            <div className="action-button">
-              <div className="interaction-buttons" key={index}>
+
+            <div className="photo">
+              <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc315a26ed0d1220c/6025d6ae3e70bb4c12c71fd6/2021_2_15_NasusKim.jpg" />
+            </div>
+
+            <div className="action-buttons">
+              <div className="interaction-buttons">
                 <span>{item.feedHeartIcon}</span>
                 <span>{item.feedCommentsIcon}</span>
                 <span>{item.feedShareIcon}</span>
@@ -37,9 +37,8 @@ function Feed() {
                 <span>{item.feedBookMark}</span>
               </div>
             </div>
-          ))}
-          {likedBy.map((item, index) => (
-            <div className="liked-by" key={index}>
+
+            <div className="liked-by">
               <span>
                 <img src={item.userPhoto} />
               </span>
@@ -49,11 +48,12 @@ function Feed() {
               <span>
                 <img src={item.userPhoto3} />
               </span>
-              <p>Liked by</p> <b>{item.userName}</b> and{" "}
-              <p>{item.numbersOfLikes}</p> others
+              <p>
+                Liked by <b>{item.userName}</b> and{" "}
+                <b>{item.numbersOfLikes} others</b>
+              </p>
             </div>
-          ))}
-          {comments.map((item, index) => (
+
             <div>
               <div className="caption">
                 <p>
@@ -67,8 +67,8 @@ function Feed() {
                 View all {item.CommentsView} comments
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </>
   );

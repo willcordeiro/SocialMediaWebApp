@@ -4,7 +4,7 @@ import "./Stories.css";
 function Stories() {
   return (
     <>
-      <div className="middle">
+      <div>
         <div className="stories">
           {Storie.map((item, index) => (
             <div className="story">

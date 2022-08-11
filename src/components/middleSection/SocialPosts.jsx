@@ -4,7 +4,7 @@ import Feed from "../feed/feed";
 function SocialPosts() {
   return (
     <div>
-      <div>
+      <div className="middle">
         <Stories />
         <Feed />
       </div>
