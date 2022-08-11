@@ -32,3 +32,28 @@ main .conta .right {
   top: -18rem;
   bottom: 0;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+  .conta {
+    width: 96%;
+  }
+  main .conta {
+    grid-template-columns: 5rem auto 30vw;
+    gap: 1rem;
+  }
+
+  .left {
+    width: 5rem;
+    z-index: 5;
+  }
+
+  main .conta .left .profile {
+    display: none;
+  }
+
+  .sidebar h3 {
+    display: none;
+  }
+}
