@@ -35,7 +35,8 @@ function SidebarProfileMenu() {
 
                 <h3 className="siderbarItem">{item.text}</h3>
               </i>
-              {item.notificationBar ? (
+
+              {/*   {item.notificationBar ? (
                 <div className="backgroundnotifications">
                   {Notification.map((Notificationitem, Notificationindex) => (
                     <div
@@ -59,7 +60,7 @@ function SidebarProfileMenu() {
                 </div>
               ) : (
                 ""
-              )}
+              )} */}
             </a>
           ))}
         </div>

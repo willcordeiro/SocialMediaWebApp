@@ -33,15 +33,3 @@ body {
   background: var(--color-light);
   overflow-x: hidden;
 }
-
-main {
-  position: relative;
-  top: 5.4rem;
-}
-main .conta {
-  display: grid;
-  grid-template-columns: 18vh auto 20vw;
-  padding: 10px;
-  column-gap: 2rem;
-  position: relative;
-}
