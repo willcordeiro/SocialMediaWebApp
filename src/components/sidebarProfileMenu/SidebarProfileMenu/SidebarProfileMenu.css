@@ -6,7 +6,7 @@ main .conta .left {
 main .conta .left .profile {
   padding: var(--card-padding);
   background: var(--color-white);
-  border-radius: var(--card-border-radius);
+  border-radius: 5px;
   display: flex;
   align-items: center;
   column-gap: 1rem;
@@ -16,7 +16,7 @@ main .conta .left .profile {
 .left .sidebar {
   margin-top: 1rem;
   background: var(--color-white);
-  border-radius: var(--card-border-radius);
+  border-radius: 5px;
 }
 
 .left .sidebar .menu-item {
@@ -81,12 +81,12 @@ i {
 }
 
 .left .sidebar .menu-item:first-child.active {
-  border-top-left-radius: var(--card-border-radius);
+  border-top-left-radius: 5px;
   overflow: hidden;
 }
 
 .left .sidebar .menu-item:last-child.active {
-  border-top-left-radius: var(--card-border-radius);
+  border-top-left-radius: 5px;
   overflow: hidden;
 }
 
@@ -105,7 +105,7 @@ i {
   left: 110%;
   top: 0;
   width: 30rem;
-  border-radius: var(--card-border-radius);
+  border-radius: 5px;
   padding: var(--card-padding);
   box-shadow: 0 0 2rem hsl(var(--color-primary), 75%, 60% 25%);
   z-index: 8;

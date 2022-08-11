@@ -33,3 +33,12 @@ export const likedBy = [
     numbersOfLikes: "2,323",
   },
 ];
+
+export const comments = [
+  {
+    UserNameComments: "Janna altrora",
+    UserTextComments: " Lorem Inpsum dolor sit quisquam eius",
+    CommentsTag: "#lifestyle",
+    CommentsView: "277",
+  },
+];

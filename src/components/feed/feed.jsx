@@ -2,6 +2,8 @@ import React from "react";
 import { FeedIcons } from "./data/data";
 import { userFeedProfile } from "./data/data";
 import { likedBy } from "./data/data";
+import { comments } from "./data/data";
+import "./feed.css";
 function Feed() {
   return (
     <>
@@ -51,14 +53,21 @@ function Feed() {
               <p>{item.numbersOfLikes}</p> others
             </div>
           ))}
+          {comments.map((item, index) => (
+            <div>
+              <div className="caption">
+                <p>
+                  <b>{item.UserNameComments}</b>
+                  {item.UserTextComments}
+                  <span className="harsh-tag">{item.CommentsTag}</span>
+                </p>
+              </div>
 
-          <div className="caption">
-            <p>
-              <b></b>
-              <span className="harsh-tag"></span>
-            </p>
-          </div>
-          <div className="text-muted"></div>
+              <div className="text-muted">
+                View all {item.CommentsView} comments
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>
