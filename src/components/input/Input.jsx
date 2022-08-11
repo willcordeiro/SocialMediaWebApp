@@ -1,7 +1,14 @@
 import React from "react";
 
-const Input = ({ type, placeholder }) => {
-  return <input type={type} placeholder={placeholder} className="search-bar" />;
+const Input = ({ type, placeholder, value }) => {
+  return (
+    <input
+      type={type}
+      placeholder={placeholder}
+      value={value}
+      className="search-bar"
+    />
+  );
 };
 
 export default Input;
