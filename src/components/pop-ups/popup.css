@@ -7,6 +7,7 @@
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   z-index: 1000;
+  margin-left: 600px;
 }
 
 .left .notifications-popup {
@@ -19,11 +20,16 @@
   padding: 14px 28px;
   border-radius: 3px;
   max-width: 600px;
-  min-width: 300px;
+  min-width: 400px;
+  width: 100%;
 }
 
 .Xicon {
   font-size: 25px;
   cursor: pointer;
   justify-content: right;
+}
+
+.notification-body {
+  width: 300px;
 }

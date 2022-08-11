@@ -63,6 +63,10 @@ main .conta .right {
 }
 
 @media screen and (max-width: 992px) {
+  .backgroundnotifications {
+    margin-left: 0px;
+  }
+
   .navbar .search-bar {
     display: none;
   }

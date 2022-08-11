@@ -6,6 +6,16 @@ import { MdBookmarks } from "react-icons/md";
 import { MdOutlineAnalytics } from "react-icons/md";
 import { MdFormatPaint } from "react-icons/md";
 import { MdSettings } from "react-icons/md";
+
+export const UserInfo = [
+  {
+    CurrentUserName: "User",
+    UserEmail: "User@gmail.com",
+    UserProfilePhoto:
+      "https://www.unrankedsmurfs.com/storage/blogposts/best-fan-art/rivenexile.jpg",
+  },
+];
+
 export const SidebarItems = [
   {
     icon: <MdHome />,

@@ -1,25 +1,25 @@
 import React from "react";
 import { Notification } from "../sidebarProfileMenu/Data/Data";
 import "./popup.css";
-import Button from "../button/Button";
 import { HiOutlineXCircle } from "react-icons/hi";
 
-function Popups() {
+function Popups({ CloseFunction }) {
   return (
     <>
       <div className="backgroundnotifications">
-        <i className="Xicon">
+        <i className="Xicon" onClick={CloseFunction}>
           <HiOutlineXCircle />
         </i>
         {Notification.map((Notificationitem, Notificationindex) => (
           <div className="notifications-popup" key={Notificationindex}>
             <div>
-              <div className="profile-photo">
+              <div className="profile-photo notificationImage">
                 <img src={Notificationitem.userProfilePic} />
               </div>
               <div className="notification-body">
                 <b>{Notificationitem.userNotificationName}</b>
-                {Notificationitem.notificationInfo}
+                <p> {Notificationitem.notificationInfo}</p>
+
                 <small className="text-muted">
                   {Notificationitem.notificationTime}
                 </small>

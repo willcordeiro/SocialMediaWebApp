@@ -2,27 +2,38 @@ import React, { useState } from "react";
 import "./SidebarProfileMenu/SidebarProfileMenu.css";
 import { SidebarItems } from "./Data/Data";
 import Button from "../button/Button";
-
+import Popups from "../pop-ups/pop-ups";
+import { UserInfo } from "./Data/Data";
 function SidebarProfileMenu() {
+  const [Navbar, setNavbar] = useState(false);
+
+  const ToggleSwitch = () => (Navbar ? setNavbar(false) : setNavbar(true));
+
   return (
     <>
+      {Navbar ? <Popups CloseFunction={ToggleSwitch}></Popups> : ""}
       <div className="left">
         <a className="profile">
-          <div className="profile-photo">
-            <img src="https://www.unrankedsmurfs.com/storage/blogposts/best-fan-art/rivenexile.jpg" />
-          </div>
-          <div className="handle">
-            <h4>test</h4>
-            <p className="text-muted">@test</p>
-          </div>
+          {UserInfo.map((item, index) => (
+            <div key={index}>
+              <div className="profile-photo">
+                <img src={item.UserProfilePhoto} />
+              </div>
+              <div className="handle">
+                <b>{item.CurrentUserName}</b>
+                <small className="text-muted"> {item.UserEmail}</small>
+              </div>
+            </div>
+          ))}
         </a>
+
         <div className="sidebar">
           {SidebarItems.map((item, index) => (
             <a
               className="menu-item"
               id={item.NavigationID}
               key={index}
-              onClick={item.notificationBar !== undefined ? "" : ""}
+              onClick={item.notificationBar !== undefined ? ToggleSwitch : ""}
             >
               <span>
                 <i>{item.icon}</i>
