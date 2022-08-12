@@ -3,11 +3,15 @@ import "./Navbar.css/Navbar.css";
 import Input from "../input/Input";
 import { MdOutlineSearch } from "react-icons/md";
 import Button from "../button/Button";
+import { FaMoon } from "react-icons/fa";
 function Navbar() {
   return (
     <>
       <div className="navbar">
-        <h2 className="log">SocialMedia</h2>
+        <h2 className="log">
+          <FaMoon />
+          Social
+        </h2>
         <div className="search-bar">
           <MdOutlineSearch />
 

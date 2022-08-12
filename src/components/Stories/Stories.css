@@ -5,6 +5,15 @@
   gap: 0.5rem;
 }
 
+.story {
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.story:hover {
+  transform: translateY(-0.5rem);
+}
+
 .middle .stories .story {
   padding: var(--card-padding);
   border-radius: 5px;
@@ -67,6 +76,7 @@
 }
 
 .middle .create-post {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 100%;
   display: flex;
   align-items: center;

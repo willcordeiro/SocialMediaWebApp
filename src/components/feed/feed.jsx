@@ -29,9 +29,9 @@ function Feed() {
 
             <div className="action-buttons">
               <div className="interaction-buttons">
-                <span>{item.feedHeartIcon}</span>
-                <span>{item.feedCommentsIcon}</span>
-                <span>{item.feedShareIcon}</span>
+                <span className="action-Item">{item.feedHeartIcon}</span>
+                <span className="action-Item">{item.feedCommentsIcon}</span>
+                <span className="action-Item">{item.feedShareIcon}</span>
               </div>
               <div className="bookmark">
                 <span>{item.feedBookMark}</span>
@@ -63,7 +63,7 @@ function Feed() {
                 </p>
               </div>
 
-              <div className="text-muted">
+              <div className="text-muted comments">
                 View all {item.CommentsView} comments
               </div>
             </div>

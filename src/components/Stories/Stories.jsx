@@ -21,6 +21,7 @@ function Stories() {
           <div className="profile-photo">
             <img src="https://i.pinimg.com/originals/d5/db/75/d5db75268064ba7846ad4d243cdc275b.jpg" />
           </div>
+
           <input
             type="text"
             placeholder="What's on your mind, user?"

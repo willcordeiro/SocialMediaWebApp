@@ -1,10 +1,10 @@
 .middle .feeds .feed {
   background-color: var(--color-white);
   border-radius: 5px;
-  padding: var(--card-padding);
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   font-size: 0.85rem;
   line-height: 1.5;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .middle .feed .head {
@@ -18,25 +18,63 @@
 }
 
 .middle .feed .photo {
-  border-radius: 5px;
   overflow: hidden;
-  margin: 0.7rem 0;
+}
+
+.head {
+  padding: 10px;
+}
+.ingo {
+  cursor: pointer;
+}
+
+.profile-photo {
+  cursor: pointer;
+}
+
+.liked-by {
+  padding: 10px;
+  font-size: 15px;
+}
+.caption {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.text-muted {
+  padding: 10px;
+}
+.action-buttons {
+  cursor: pointer;
 }
 
 .middle .feed .action-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 0.6rem;
 }
 
+.action-Item {
+  margin: 8px;
+}
+.action-Item:hover {
+  color: rgb(230, 109, 109);
+}
+.bookmark:hover {
+  color: rgb(230, 109, 109);
+}
+
+.comments {
+  font-size: 15px;
+}
 .middle .liked-by {
   display: flex;
 }
 .middle .liked-by span {
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 2rem;
+  height: 2rem;
   display: block;
   border-radius: 50%;
   overflow: hidden;

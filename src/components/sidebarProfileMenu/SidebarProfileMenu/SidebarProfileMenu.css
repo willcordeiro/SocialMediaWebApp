@@ -48,6 +48,9 @@ i {
   margin-left: 1.5rem;
   font-size: 1rem;
 }
+.profile {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 .left .sidebar .active {
   background: var(--color-light);

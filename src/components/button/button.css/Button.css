@@ -6,7 +6,7 @@
   cursor: pointer;
   transform: all 300ms ease;
   font-size: 0.9rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .btn:hover {
