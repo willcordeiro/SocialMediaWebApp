@@ -12,7 +12,7 @@ export const UserInfo = [
     CurrentUserName: "User",
     UserEmail: "User@gmail.com",
     UserProfilePhoto:
-      "https://www.unrankedsmurfs.com/storage/blogposts/best-fan-art/rivenexile.jpg",
+      "https://i.pinimg.com/originals/cd/5e/e3/cd5ee3e0bddaba65e73afd77bbcfbb6c.png",
   },
 ];
 
@@ -71,8 +71,7 @@ export const SidebarItems = [
 
 export const Notification = [
   {
-    userProfilePic:
-      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
+    userProfilePic: UserInfo.UserProfilePhoto,
     userNotificationName: "keke bejamin",
     notificationTime: "5 Days Ago",
     notificationInfo: "accepted yout frind request",

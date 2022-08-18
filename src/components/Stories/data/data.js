@@ -1,7 +1,8 @@
+import { UserInfo } from "../../sidebarProfileMenu/Data/Data";
+
 export const Storie = [
   {
-    StorieImage:
-      "https://www.unrankedsmurfs.com/storage/blogposts/best-fan-art/rivenexile.jpg",
+    StorieImage: UserInfo[0].UserProfilePhoto,
     StorieName: "Your Story",
   },
   {

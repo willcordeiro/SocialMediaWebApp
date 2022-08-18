@@ -1,4 +1,5 @@
 import React from "react";
+import { UserInfo } from "../sidebarProfileMenu/Data/Data";
 import { Storie } from "./data/data";
 import "./Stories.css";
 function Stories() {
@@ -18,10 +19,11 @@ function Stories() {
           ))}
         </div>
         <form className="create-post">
-          <div className="profile-photo">
-            <img src="https://i.pinimg.com/originals/d5/db/75/d5db75268064ba7846ad4d243cdc275b.jpg" />
-          </div>
-
+          {UserInfo.map((item, index) => (
+            <div className="profile-photo" key={index}>
+              <img src={item.UserProfilePhoto} />
+            </div>
+          ))}
           <input
             type="text"
             placeholder="What's on your mind, user?"

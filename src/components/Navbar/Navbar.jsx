@@ -4,6 +4,7 @@ import Input from "../input/Input";
 import { MdOutlineSearch } from "react-icons/md";
 import Button from "../button/Button";
 import { FaMoon } from "react-icons/fa";
+import { UserInfo } from "../sidebarProfileMenu/Data/Data";
 function Navbar() {
   return (
     <>
@@ -20,12 +21,14 @@ function Navbar() {
             placeholder="Search for creators, inspirations, and projects"
           />
         </div>
-        <div className="create">
-          <Button forButton="create-post">New Post</Button>
-          <div className="profile-photo">
-            <img src="https://www.unrankedsmurfs.com/storage/blogposts/best-fan-art/rivenexile.jpg" />
+        {UserInfo.map((item, index) => (
+          <div className="create" key={index}>
+            <Button forButton="create-post">New Post</Button>
+            <div className="profile-photo">
+              <img src={item.UserProfilePhoto} />
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </>
   );
