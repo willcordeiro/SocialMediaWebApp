@@ -35,7 +35,7 @@ main .conta .right {
 
 /* media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1700px) {
   .conta {
     width: 96%;
   }

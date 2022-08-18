@@ -29,21 +29,21 @@ export const messages = [
 
 export const Friendrequest = [
   {
-    userName: "Edem Quist",
+    userName: "Carolina Duques",
     userProfileImage:
-      "https://ddragon.leagueoflegends.com/cdn/12.9.1/img/profileicon/4568.png",
+      "https://thumbs.dreamstime.com/b/side-view-closeup-beautiful-young-woman-profile-over-black-background-67157274.jpg",
     MutualFriends: "9",
   },
   {
-    userName: "Edem Quist",
+    userName: "Mario Daves",
     userProfileImage:
-      "https://ddragon.leagueoflegends.com/cdn/12.9.1/img/profileicon/4568.png",
-    MutualFriends: "9",
+      "https://i.pinimg.com/originals/97/2c/58/972c58ce25d1e0bc96f2a787d254c26c.jpg",
+    MutualFriends: "1",
   },
   {
-    userName: "Edem Quist",
+    userName: "Geovanna Bear",
     userProfileImage:
       "https://ddragon.leagueoflegends.com/cdn/12.9.1/img/profileicon/4568.png",
-    MutualFriends: "9",
+    MutualFriends: "5",
   },
 ];

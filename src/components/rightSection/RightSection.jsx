@@ -57,8 +57,11 @@ function RightSection() {
         {Friendrequest.map((item, index) => (
           <div className="request" key={index}>
             <div className="info">
-              <div className="profile-photo">
-                <img src={item.userProfileImage} />
+              <div>
+                <img
+                  src={item.userProfileImage}
+                  className="rightprofileRequest"
+                />
               </div>
               <div>
                 <h5>{item.userName}</h5>
