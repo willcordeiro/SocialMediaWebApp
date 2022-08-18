@@ -45,9 +45,6 @@
 .text-muted {
   padding: 10px;
 }
-.action-buttons {
-  cursor: pointer;
-}
 
 .middle .feed .action-buttons {
   display: flex;
@@ -59,10 +56,16 @@
 
 .action-Item {
   margin: 8px;
+  cursor: pointer;
 }
 .action-Item:hover {
   color: rgb(230, 109, 109);
 }
+
+.bookmark {
+  cursor: pointer;
+}
+
 .bookmark:hover {
   color: rgb(230, 109, 109);
 }

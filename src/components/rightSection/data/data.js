@@ -2,10 +2,10 @@ export const requests = [{ requestNumber: "7" }];
 
 export const messages = [
   {
-    userName: "Ellie",
+    userName: "Jessica",
     UserMessage: "Hello? are u there?",
     userImage:
-      "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2lkZSUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80",
+      "https://m.media-amazon.com/images/S/amzn-author-media-prod/i623dgg2e6a59seloh5raudvkm._SX450_.jpg",
   },
   {
     userName: "Maria Clark",
@@ -14,7 +14,7 @@ export const messages = [
       "https://i.pinimg.com/originals/a2/5a/89/a25a89c12e0fd087eae85fb348ca553c.jpg",
   },
   {
-    userName: "Jessica",
+    userName: "Michael fernandes",
     UserMessage: "I kinda like animes but not that much",
     userImage:
       "https://i.pinimg.com/736x/4b/42/98/4b42981079f53d4490d4e85e81427f79.jpg",
@@ -31,13 +31,13 @@ export const Friendrequest = [
   {
     userName: "Carolina Duques",
     userProfileImage:
-      "https://thumbs.dreamstime.com/b/side-view-closeup-beautiful-young-woman-profile-over-black-background-67157274.jpg",
+      "https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg",
     MutualFriends: "9",
   },
   {
     userName: "Mario Daves",
     userProfileImage:
-      "https://i.pinimg.com/originals/97/2c/58/972c58ce25d1e0bc96f2a787d254c26c.jpg",
+      "https://media.istockphoto.com/photos/sunset-with-pebbles-on-beach-in-nice-france-picture-id1157205177?k=20&m=1157205177&s=612x612&w=0&h=bmCFFtaLRtF_eYhjZ3FkhPXU3X-yrdvr85xvl2CmQ9g=",
     MutualFriends: "1",
   },
   {

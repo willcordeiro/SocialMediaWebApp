@@ -61,6 +61,7 @@
   width: 50px;
   border-radius: 50%;
 }
+
 .containerMessage:hover {
   background-color: rgb(235, 229, 229);
   padding: 2px;
@@ -131,8 +132,7 @@
 
 .right .request .info {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  margin: 2px;
 }
 
 .right .request .action {

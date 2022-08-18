@@ -18,6 +18,15 @@ img {
   width: 100%;
 }
 
+.AddSinal {
+  font-size: 30px;
+  color: #7794e3;
+  cursor: pointer;
+}
+.AddSinal:hover {
+  opacity: 0.8;
+}
+
 .text-mute {
   color: var(--color-gray);
 }

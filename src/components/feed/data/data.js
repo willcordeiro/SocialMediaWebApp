@@ -12,7 +12,7 @@ export const FeedRoll = [
     userEllIcon: <AiOutlineEllipsis />,
     PostLocations: "Florida",
     FeedImage:
-      "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc315a26ed0d1220c/6025d6ae3e70bb4c12c71fd6/2021_2_15_NasusKim.jpg",
+      "https://media.npr.org/assets/img/2022/07/14/carina-nebula1_wide-df8bc117185067bbd8afa621f495e2f1ec6e3096-s1100-c50.jpeg",
     PostMoment: "50 Minutes Ago",
     userPhoto: "https://artfiles.alphacoders.com/153/thumb-1920-153330.jpg",
     userPhoto2:
@@ -37,7 +37,7 @@ export const FeedRoll = [
     userEllIcon: <AiOutlineEllipsis />,
     PostLocations: "Paris",
     FeedImage:
-      "https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-05/9dbea438bcd305129064e4a048cc6b52.jpeg?itok=Pbyrka1l",
+      "https://ichef.bbci.co.uk/news/999/cpsprodpb/6D5A/production/_119449972_10.jpg",
     PostMoment: "5 Minutes Ago",
     userPhoto: "https://artfiles.alphacoders.com/153/thumb-1920-153330.jpg",
     userPhoto2:

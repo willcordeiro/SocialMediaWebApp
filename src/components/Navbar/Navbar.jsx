@@ -5,6 +5,8 @@ import { MdOutlineSearch } from "react-icons/md";
 import Button from "../button/Button";
 import { FaMoon } from "react-icons/fa";
 import { UserInfo } from "../sidebarProfileMenu/Data/Data";
+import { MdAddBox } from "react-icons/md";
+
 function Navbar() {
   return (
     <>
@@ -23,7 +25,7 @@ function Navbar() {
         </div>
         {UserInfo.map((item, index) => (
           <div className="create" key={index}>
-            <Button forButton="create-post">New Post</Button>
+            <MdAddBox forButton="create-post" className="AddSinal" />
             <div className="profile-photo">
               <img src={item.UserProfilePhoto} />
             </div>
