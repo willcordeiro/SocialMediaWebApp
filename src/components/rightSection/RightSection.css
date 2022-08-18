@@ -57,7 +57,27 @@
 }
 
 .right .profile-photo .rightprofile {
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
+}
+.containerMessage:hover {
+  background-color: rgb(235, 229, 229);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.containerMessage {
+  cursor: pointer;
+  display: flex;
+}
+
+.message-body {
+  margin: 10px;
+}
+
+.messageReceived {
+  margin-bottom: 25px;
 }
 
 .right .messages .message:last-child {
@@ -71,7 +91,6 @@
 .right .messages .message .profile-photo .active {
   width: 0.8rem;
   height: 0.8rem;
-  border-radius: 50%;
   border: 3px solid var(--color-white);
   background: var(--color-success);
   position: absolute;
