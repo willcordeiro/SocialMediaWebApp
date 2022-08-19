@@ -12,10 +12,14 @@ function Popups({ CloseFunction }) {
         </i>
         {Notification.map((Notificationitem, Notificationindex) => (
           <div className="notifications-popup" key={Notificationindex}>
-            <div>
-              <div className="profile-photo notificationImage">
-                <img src={Notificationitem.userProfilePic} />
+            <div className="notification-data">
+              <div className="">
+                <img
+                  src={Notificationitem.userProfilePic}
+                  className="notificationImage"
+                />
               </div>
+
               <div className="notification-body">
                 <b>{Notificationitem.userNotificationName}</b>
                 <p> {Notificationitem.notificationInfo}</p>

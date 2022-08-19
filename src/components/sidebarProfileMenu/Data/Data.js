@@ -71,37 +71,31 @@ export const SidebarItems = [
 
 export const Notification = [
   {
-    userProfilePic: UserInfo.UserProfilePhoto,
-    userNotificationName: "keke bejamin",
-    notificationTime: "5 Days Ago",
+    userProfilePic:
+      "https://m.media-amazon.com/images/S/amzn-author-media-prod/i623dgg2e6a59seloh5raudvkm._SX450_.jpg",
+    userNotificationName: "jessica",
+    notificationTime: "2 Days Ago",
     notificationInfo: "accepted yout frind request",
   },
   {
     userProfilePic:
-      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
-    userNotificationName: "keke bejamin",
-    notificationTime: "5 Days Ago",
+      "https://i.pinimg.com/originals/a2/5a/89/a25a89c12e0fd087eae85fb348ca553c.jpg",
+    userNotificationName: "Maria Clark",
+    notificationTime: "1 Days Ago",
+    notificationInfo: "Liked your photo",
+  },
+  {
+    userProfilePic:
+      "https://media.istockphoto.com/photos/studio-portrait-of-attractive-19-year-old-woman-with-brown-hair-picture-id1344327532?b=1&k=20&m=1344327532&s=170667a&w=0&h=aqh_117UeU73q6fdesYZlI1X6p1dULM33gKo3RBP-xs=",
+    userNotificationName: "Edem Quist",
+    notificationTime: "5 Hours Ago",
     notificationInfo: "accepted yout frind request",
   },
   {
     userProfilePic:
-      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
-    userNotificationName: "keke bejamin",
+      "https://i.pinimg.com/736x/4b/42/98/4b42981079f53d4490d4e85e81427f79.jpg",
+    userNotificationName: "Michael fernandes",
     notificationTime: "5 Days Ago",
-    notificationInfo: "accepted yout frind request",
-  },
-  {
-    userProfilePic:
-      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
-    userNotificationName: "keke bejamin",
-    notificationTime: "5 Days Ago",
-    notificationInfo: "accepted yout frind request",
-  },
-  {
-    userProfilePic:
-      "https://cdn.dribbble.com/users/454765/screenshots/5825882/penguin_32x32px_400x300_new_still.gif?compress=1&resize=400x300",
-    userNotificationName: "keke bejamin",
-    notificationTime: "5 Days Ago",
-    notificationInfo: "accepted yout frind request",
+    notificationInfo: "Share a video with you",
   },
 ];
