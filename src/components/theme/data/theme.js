@@ -18,10 +18,16 @@ body{
     color:${(props) => props.theme.fontColor};
 }
 
-.left .sidebar{
+
+.left .sidebar {
     background-color:${(props) => props.theme.body};
     box-shadow:${(props) => props.theme.boxshadow};
-}
+  }
+  
+  main .conta .left .profile {
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
 
 .left .sidebar .menu-item:hover {
     background-color:${(props) => props.theme.background};
