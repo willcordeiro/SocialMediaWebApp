@@ -34,14 +34,14 @@ export const SidebarItems = [
     text: "Notifications",
     NavigationID: "notifications",
     notificationBar: true,
-    notificationsCount: "9+",
+    notificationsCount: "4+",
   },
   {
     icon: <MdOutlineMessage />,
     text: "Messages",
     NavigationID: "messages-notifications",
 
-    notificationsCount: "9+",
+    notificationsCount: "2+",
   },
   {
     icon: <MdBookmarks />,
@@ -58,7 +58,7 @@ export const SidebarItems = [
   {
     icon: <MdFormatPaint />,
     text: "Theme",
-
+    notificationsTheme: true,
     notificationsCount: "",
   },
   {

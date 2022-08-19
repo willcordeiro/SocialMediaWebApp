@@ -4,14 +4,19 @@ import { SidebarItems } from "./Data/Data";
 import Button from "../button/Button";
 import Popups from "../pop-ups/pop-ups";
 import { UserInfo } from "./Data/Data";
+import Theme from "../theme/Theme";
 function SidebarProfileMenu() {
   const [Navbar, setNavbar] = useState(false);
+  const [ThemeChanger, setThemeChanger] = useState(false);
 
   const ToggleSwitch = () => (Navbar ? setNavbar(false) : setNavbar(true));
+  const ToggleSwitchTheme = () =>
+    ThemeChanger ? setThemeChanger(false) : setThemeChanger(true);
 
   return (
     <>
       {Navbar ? <Popups CloseFunction={ToggleSwitch}></Popups> : ""}
+      {ThemeChanger ? <Theme CloseFunction={ToggleSwitchTheme}></Theme> : ""}
       <div className="left">
         <a className="profile">
           {UserInfo.map((item, index) => (
@@ -33,7 +38,13 @@ function SidebarProfileMenu() {
               className="menu-item"
               id={item.NavigationID}
               key={index}
-              onClick={item.notificationBar !== undefined ? ToggleSwitch : ""}
+              onClick={() => {
+                if (item.notificationBar !== undefined) {
+                  return ToggleSwitch();
+                } else if (item.notificationsTheme !== undefined) {
+                  return ToggleSwitchTheme();
+                }
+              }}
             >
               <span>
                 <i>{item.icon}</i>
