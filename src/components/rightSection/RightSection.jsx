@@ -25,6 +25,7 @@ function RightSection() {
             type="search"
             placeholder="Search messages"
             id="message-search"
+            className="Message-Input"
           />
         </div>
         <div className="category">

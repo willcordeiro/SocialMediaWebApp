@@ -50,6 +50,24 @@ body{
     background-color:${(props) => props.theme.body};
     box-shadow:${(props) => props.theme.boxshadow};
   }
+
+  .containerMessage:hover {
+    background-color:${(props) => props.theme.background};
+  }
+
+  .right .request{
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
+
+  .right .messages{
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
+
+  .Message-Input{
+    background-color:${(props) => props.theme.body};
+  }
   
 
 `;
