@@ -37,6 +37,19 @@ body{
     color:${(props) => props.theme.icons};
   }
   
+  .middle .create-post{
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
+
+  .story{
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
+
+  .middle .feeds .feed{
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
   
 
 `;
