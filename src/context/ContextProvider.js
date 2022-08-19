@@ -16,7 +16,6 @@ export const ContextProvider = ({ children }) => {
 
   const setLocalStorageTheme = () => {
     localStorage.setItem("themeSocial", theme);
-    console.log(getThemeInStorage);
   };
 
   setLocalStorageTheme();
