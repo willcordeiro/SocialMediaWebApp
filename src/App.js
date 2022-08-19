@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <ThemeProvider theme={theme === "light" ? LightTheme : DarkTheme}>
+      <ThemeProvider theme={theme === "dark" ? DarkTheme : LightTheme}>
         <GlobalStyles />
         <Navbar />
         <HomePage />

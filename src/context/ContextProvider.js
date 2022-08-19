@@ -3,14 +3,14 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 const StateContext = createContext();
 
 export const ContextProvider = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [isDarkMode, setIsDarkMode] = useState(() => false);
 
   const CheckedSwitch = () =>
     isDarkMode ? setIsDarkMode(false) : setIsDarkMode(true);
 
   const themeToggler = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
+    theme === "dark" ? setTheme("light") : setTheme("dark");
   };
   const getThemeInStorage = localStorage.getItem("themeSocial");
 
