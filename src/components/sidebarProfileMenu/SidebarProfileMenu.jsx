@@ -43,6 +43,8 @@ function SidebarProfileMenu() {
                   return ToggleSwitch();
                 } else if (item.notificationsTheme !== undefined) {
                   return ToggleSwitchTheme();
+                } else {
+                  return;
                 }
               }}
             >
