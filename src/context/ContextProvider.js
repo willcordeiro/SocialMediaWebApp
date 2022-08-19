@@ -12,18 +12,18 @@ export const ContextProvider = ({ children }) => {
   const themeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
+  const getThemeInStorage = localStorage.getItem("themeSocial");
 
-  if (isDarkMode) {
-    const setThemeInStorage = (theme) => {
-      localStorage.setItem("themeSocial", theme);
-    };
-    setThemeInStorage(theme);
-  }
+  const setLocalStorageTheme = () => {
+    localStorage.setItem("themeSocial", theme);
+    console.log(getThemeInStorage);
+  };
+
+  setLocalStorageTheme();
 
   useEffect(() => {
-    var getThemeInStorage = localStorage.getItem("themeSocial");
     setTheme(getThemeInStorage);
-  });
+  }, []);
 
   return (
     <StateContext.Provider
