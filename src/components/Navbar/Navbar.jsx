@@ -25,7 +25,7 @@ function Navbar() {
         </div>
         {UserInfo.map((item, index) => (
           <div className="create" key={index}>
-            <MdAddBox forButton="create-post" className="AddSinal" />
+            <MdAddBox className="AddSinal" />
             <div className="profile-photo">
               <img src={item.UserProfilePhoto} />
             </div>

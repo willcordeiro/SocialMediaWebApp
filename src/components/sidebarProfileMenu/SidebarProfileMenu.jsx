@@ -67,7 +67,7 @@ function SidebarProfileMenu() {
           ))}
         </div>
 
-        <Button forButton="create-post">Create post</Button>
+        <Button>Create post</Button>
       </div>
     </>
   );
