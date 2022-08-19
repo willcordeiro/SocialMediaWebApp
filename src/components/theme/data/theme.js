@@ -9,6 +9,7 @@ export const DarkTheme = {
   boxshadow: `rgba(255, 254, 254, 0.02) 0px 1px 3px 0px,
   rgba(255, 255, 255, 0.15) 0px 0px 0px 1px;`,
   icons: "white",
+  boxshadow2: "0 0 4px white;",
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -68,6 +69,21 @@ body{
   .Message-Input{
     background-color:${(props) => props.theme.body};
   }
-  
+
+  .navbar .search-bar {
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
+
+  .navbar{
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow};
+  }
+
+  .backgroundnotifications{
+    background-color:${(props) => props.theme.body};
+    box-shadow:${(props) => props.theme.boxshadow2};
+  }
+
 
 `;
