@@ -18,51 +18,51 @@ export const UserInfo = [
 
 export const SidebarItems = [
   {
-    icon: <MdHome />,
+    icon: <MdHome className="icons" />,
     text: "Home",
     activeItem: "active",
     notificationsCount: "",
   },
   {
-    icon: <MdTravelExplore />,
+    icon: <MdTravelExplore className="icons" />,
     text: "Explore",
     activeItem: "",
     notificationsCount: "",
   },
   {
-    icon: <MdOutlineCircleNotifications />,
+    icon: <MdOutlineCircleNotifications className="icons" />,
     text: "Notifications",
     NavigationID: "notifications",
     notificationBar: true,
     notificationsCount: "4+",
   },
   {
-    icon: <MdOutlineMessage />,
+    icon: <MdOutlineMessage className="icons" />,
     text: "Messages",
     NavigationID: "messages-notifications",
 
     notificationsCount: "2+",
   },
   {
-    icon: <MdBookmarks />,
+    icon: <MdBookmarks className="icons" />,
     text: "Bookmarks",
 
     notificationsCount: "",
   },
   {
-    icon: <MdOutlineAnalytics />,
+    icon: <MdOutlineAnalytics className="icons" />,
     text: "Analytics",
 
     notificationsCount: "",
   },
   {
-    icon: <MdFormatPaint />,
+    icon: <MdFormatPaint className="icons" />,
     text: "Theme",
     notificationsTheme: true,
     notificationsCount: "",
   },
   {
-    icon: <MdSettings />,
+    icon: <MdSettings className="icons" />,
     text: "Settings",
 
     notificationsCount: "",

@@ -49,7 +49,7 @@ function SidebarProfileMenu() {
               }}
             >
               <span>
-                <i>{item.icon}</i>
+                <i className="icons">{item.icon}</i>
                 <i>
                   <small
                     className={
