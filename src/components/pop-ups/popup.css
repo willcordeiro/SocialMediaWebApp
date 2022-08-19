@@ -19,6 +19,13 @@
 
 .notification-data {
   display: flex;
+  cursor: pointer;
+}
+
+.notification-data:hover {
+  background-color: rgb(235, 229, 229);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .Xicon {

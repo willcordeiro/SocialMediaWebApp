@@ -28,11 +28,9 @@ function RightSection() {
           />
         </div>
         <div className="category">
-          <h6 className="active">Primary</h6>
-          <h6 className="">General</h6>
           {requests.map((item, index) => (
             <div key={index}>
-              <h6>Requests({item.requestNumber})</h6>
+              <h6 className="active">Requests({item.requestNumber})</h6>
             </div>
           ))}
         </div>
