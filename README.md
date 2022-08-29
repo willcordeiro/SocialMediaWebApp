@@ -7,7 +7,7 @@ This is the front end of my personal project, it's a social media created using 
 
 Connect with me at [LinkedIn](https://www.linkedin.com/in/william-cordeiro-568229238/)
 
-You can access the website of this project at [SocialMediaApp](https://www.linkedin.com/in/william-cordeiro-568229238/](https://willcordeiro.github.io/SocialMediaGhpages/))
+You can access the website of this project at [SocialMediaApp](https://willcordeiro.github.io/SocialMediaGhpages/)
 
 
 ### what you need to have to run this project
